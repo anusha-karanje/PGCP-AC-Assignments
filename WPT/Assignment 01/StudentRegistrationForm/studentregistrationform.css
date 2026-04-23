@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #0b3c5d;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #328cc1;
+    font-size: 16px;
+}
+
+form {
+    margin-top: 30px;
+    margin-left: 15px;
+    text-align: left;
+}
+
+.form-group {
+	display: flex;
+	align-items: center;
+    margin-bottom: 20px;
+}
+
+label {
+	width: 150px;
+    color: #0b3c5d;
+    font-weight: bold;
+}
+
+input {
+    width: 250px;
+    padding: 8px;
+
+    border: 1px solid #328cc1;
+    border-radius: 5px;
+
+    font-size: 14px;
+}
+
+select {
+    padding: 8px;
+    margin-right: 10px;
+
+    border: 1px solid #328cc1;
+    border-radius: 5px;
+}
+
+.radio-group {
+    display: flex;
+    gap: 20px;
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: auto;
+    font-weight: normal;
+}
+
+input[type="radio"] {
+    width: auto;
+    margin: 0;
+}
+
+textarea {
+    width: 250px;
+    padding: 8px;
+
+    border: 1px solid #328cc1;
+    border-radius: 5px;
+
+    font-size: 14px;
+}
+
+.section-title {
+    color: #0b3c5d;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.qualification-table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.qualification-table th {
+    color: #0b3c5d;
+    padding: 10px;
+    text-align: left;
+}
+
+.qualification-table td {
+    padding: 8px;
+}
+
+.col-small {
+    width: 60px;
+}
+
+.col-medium {
+    width: 150px;
+}
+
+.qualification-table input {
+    width: 100%;
+    padding: 6px;
+
+    border: 1px solid #328cc1;
+    border-radius: 4px;
+}
+
+.exam-name {
+    color: #0b3c5d;
+    font-weight: bold;
+}
